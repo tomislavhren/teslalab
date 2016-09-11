@@ -1,0 +1,34 @@
+﻿<div class="experiment-details-container" ng-controller="ExperimentDetailsController as ed">
+    
+    <div class="experiment-details-heading-container"
+         ng-style="{'background-image': 'url(' + ed.experiment.pictureUrl + ')', 'background-size': 'cover'}">
+
+        <h2 class="heading">
+            {{ed.experiment.name[culture]}}
+        </h2>
+        <button class="watch-video mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
+                 ng-click="ed.gotoVideo($event)">
+            <i class="material-icons">videocam</i>
+        </button>
+        <div id="video-ripple" class="video-ripple">
+
+        </div>
+    </div>
+
+    <div class="experiment-details-description-container">
+
+        <div ng-repeat="desc in ed.experiment.descriptions[culture]"
+             class="description">
+            <p>{{desc}}</p>
+        </div>
+
+        <div id="video-section" class="video">
+            <video width="100%" controls>
+                <source ng-src="{{ed.experiment.videos[0]}}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </div>
+
+</div>

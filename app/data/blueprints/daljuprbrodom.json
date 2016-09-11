@@ -1,0 +1,18 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Bežično upravljanje brodovima i vozilima još je jedno od Teslinih dostignuća, tako da se može reći da je bio začetnih istraživanja na područjima telemehanike i teleautomatike. U svojim laboratorijima Tesla je proučavao selektivnu rezonanciju.",
+      "Godine 1898. prijavio je patent broda kojim se može upravljati na daljinu pomoću radijskoga signala. Ako se odašiljačem prema brodu pošalje signal određene frekvencije, prijamnik kojemu je to rezonantna frekvencija reagirat će na signal i uključiti strujni krug određenog motora za pokretanje kormila ili propelera na brodu u određenom smjeru. Pokus s brodom pokazao je na rijeci Hudson u New Yorku na Madison Square Gardenu."
+    ],
+    "en": [
+      "The remote control of vessels and other vehicles is yet another achievement of Tesla, making him the pioneer of research in telemechanics and teleautomation. In his laboratories Tesla researched selective resonance.",
+      "In 1898 he applied for the patent for a vessel that could be controlled remotely with the use of radio signals. If a signal of a certain frequency was sent to the vessel from a transmitter, the receiver resonating to this frequency would react to the signal and switch on a circuit of a motor for moving the helm or the propeller in the vessel in a given direction. He demonstrated the experiment with the vessel on the Hudson River in New York at Madison Square Garden."
+    ]
+  },
+  "id": "daljuprbrodom",
+  "name": {
+    "hr": "Nacrt uređaja za daljinsko upravljanje brodom",
+    "en": "Drawing of the ship's remote control device"
+  },
+  "pictureUrl": "/tesla-lab/assets/blueprints/daljuprbrodom.png"
+}

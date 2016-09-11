@@ -1,0 +1,20 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Teslin transformator naprava je koja služi za dobivanje visokih napona i visokofrekvencijskih struja pomoću rezonancije dvaju ili više titrajnih krugova u kojima su zavojnice i kondenzatori, a kao prekidači služe iskrišta. Kondenzator se puni preko transformatora sa željeznog jezgrom, a zatim prazni preko iskrišta i primarnog namota. Dok traje iskra, pojavljuju se prigušene oscilacije rezonantnoga kruga, a u primarnoj zavojnici pojavi se izmjenično magnetsko polje.",
+      "Zbog induktivne povezanosti (sekundarna zavojnica nalazi se unutar primarne i ima višestruko veći broj zavoja od nje) magnetsko polje primarne zavojnice inducira napon u sekundarnoj zavojnici. Taj je napon razmjeran odnosu broja zavoja primarne i sekundarne zavojnice. Oscilacije struje u sekundarnoj zavojnici također su prigušen, a frekvencija je jednaka onoj u primarnome krugu.",
+      "Takva vrsta oscilatora bila je osnova za razvoj odašiljača i prijemnika u radijskoj i televizijskoj tehnici, kao i telekomunikacijama."
+    ],
+    "en": [
+      "The Tesla coil produces high voltages and high frequency currents using the resonance of two or more oscillating circuits. There ircuits contain coils and capacitors with spark gaps serving as switches. The capacitor is charged through a transformer with an iron core, and then is discharged through the spark gap and the primary winding. While the spark lasts, partially damped oscillations appear in resonant circuit, and in the primary coil an alternating magnetic field is created.",
+      "Because of inductive coupling (the secondary coil is placed withing the primary and consists of a greater number of turns) the magnetic field of the primary coil induces voltage in the secondary coil. This voltage is scaled by the ratio of the number of turns of the primary and secondary coils. The oscillations of the current in the secondary coild are also damped, and the frequency is equal to that in the primary circuit.",
+      "This kind of oscillator was the basis fot the development of transmitters and receivers in radio and television engineering, as well as in telecommunications."
+    ]
+  },
+  "id": "teslinazavojnica",
+  "name": {
+    "hr": "Teslina zavojnica",
+    "en": "Tesla coil"
+  },
+  "pictureUrl": "/tesla-lab/assets/blueprints/teslinazavojnica.png"
+}

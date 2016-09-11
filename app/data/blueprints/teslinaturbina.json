@@ -1,0 +1,20 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Kod klasičnih turbina energija se prenosi od fluida na lopatice pritiskom ili udarcem, što uzrokuje štetna vrtloženja i vibracije. Teslina turbina naprava je koja iskorištava činjenicu da se fluid (para, plin, voda) kao izvor energije može najdjelotvornije iskoristiti ako su promjene u brzini i smjeru njegova kretanja izvedene vrlo postpuno.",
+      "Princip rada turbine oslanja se na dvije osobine fluida: adheziju (privlačenje fluida i površine diskova) i viskoznost (otpor koji se čestice fluida opiru molekularnom odvajanju), brzinske energije pogonskoga fluida na rotor i osovinu. Rotor se sastoji od metalnih diskova između koji je veoma malen razmak. Fluid veoma brzo ulazi na obod diskova i slobodno prolazi između njih po spiralnoj stazi, napuštajući turbinu kroz otvor u sredini.",
+      "Uređaj može raditi i reverzibilno kao crpka ako se za pokretanje rotora koristi vanjska mehanička sila."
+    ],
+    "en": [
+      "In standard turbines energy is trasmitted from the fluid to the blade by pressure or impact, which causes detrimental vortex and vibration. The Tesla bladeless turbine is a device working on the principle that a fluid (steam, gas or water) as the source of energy can be used most efficiently if the changes in the speed and direction of its movement are performed gradually.",
+      "The turbine operation relies on two fluid properties. adhesion (the attraction of the fluid to the surface of the disks) and viscosity (the resistance of particles of a fluid to molecular splitting), acting together in the transfer of the velocity energy of the frive fluid to the rotor and the shaft. The rotor consists of metal disks between which there is a very small gap. The fluid enters with high velocity at the edge of the discs, and passes freely between them along a spiral route, leaving the trubine through an aperture in the centre.",
+      "The device can also work in a reverse operating mode as a pump if an external mechanical force is used to drive the rotor."
+    ]
+  },
+  "id": "teslinaturbina",
+  "name": {
+    "hr": "Teslina turbina",
+    "en": "Drawing of the turbine"
+  },
+  "pictureUrl": "/tesla-lab/assets/blueprints/teslinaturbina.png"
+}

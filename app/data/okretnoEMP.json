@@ -1,0 +1,19 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Okretno magnetsko polje prikazuje se pomoću šupljega bakrenog jajeta, štapičastog magneta i kaveznoga bakrenog rotora koji se okre}u unutar zavojnice sa željeznom jezgrom."
+    ],
+    "en": [
+      "The principle of the rotating magnetic field is demonstrated with the help of a hollow copper egg, a bar magnet and copper rotor in the form of a cage that turns within a coil with an iron core."
+    ]
+  },
+  "id": "okretnoEMP",
+  "name": {
+    "hr": "Okretno magnetsko polje",
+    "en": "ROTATING MAGNETIC FIELD"
+  },
+  "pictureUrl": "/tesla-lab/assets/okretnoEMP.png",
+  "videos": [
+    "/tesla-lab/assets/video/OkretnoEMP.mp4"
+  ]
+}

@@ -1,0 +1,19 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Promatrajući različite učinke struje visoke frekvencije, Tesla je uočio da se ona može prenositi samo jednim vodičem. To ga je navelo na proučavanje bežičnog prijenosa elektromagnetskih titraja, odnosno na otkrije osnovnih principa radiotehnike. U postavu se nalazi model bežičnoga prijenosa elektromagnetskih titraja kojim se prikazuje Teslin rad na tom području."
+    ],
+    "en": [
+      "Observing the various effects of high frequency current, Tesla realised that it could be transmitted with just a single conductor. This led him to study wireless transmission of electromagnetic oscillations, in other words, to the discovery of the basic principle of radio engineering. In the display is a model of the wireless transmission of electromagnetic oscillations that shows Tesla’s work in this area."
+    ]
+  },
+  "id": "bezicnastruja",
+  "name": {
+    "hr": "Bežični prijenos elektromagnetskih titraja",
+    "en": "WIRELESS TRANSMISSION OF ELECTROMAGNETIC OSCILLATIONS"
+  },
+  "pictureUrl": "/tesla-lab/assets/bezicni_prijenos.png",
+  "videos": [
+    "/tesla-lab/assets/video/Bezicniprijenos.mp4"
+  ]
+}

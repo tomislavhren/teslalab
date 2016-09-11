@@ -1,0 +1,19 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Faradayev kavez služi za zaštitu od udara munje, a simulacija munje jest izbijanje Teslina transformatora izlaznog napona oko 500 000 V. Posjetitelj je unutar kaveza potpuno siguran jer struja kroz kavez te~e prema uzemljenju. Frekvencija izlazne struje jest oko 40 kHz."
+    ],
+    "en": [
+      "The Faraday cage is used to protect against lightning strikes, and it is a simulation of lightning that can be found in the discharge from a Tesla coil with a potential difference of about 500,000 V. Inside the cage the visitor is completely safe, for the lightning is conducted through the cage to earth. The frequency of the output current is about 40 kHz."
+    ]
+  },
+  "id": "faradayevkavez",
+  "name": {
+    "hr": "Faradayev kavez",
+    "en": "The Faraday cage"
+  },
+  "pictureUrl": "/tesla-lab/assets/faraday_kavez.png",
+  "videos": [
+    "/tesla-lab/assets/video/faradayevkavez.mp4"
+  ]
+}

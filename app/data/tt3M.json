@@ -1,0 +1,22 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Osobito dojmljive učinke daje Teslin transformator sekundarnog napona oko tri milijuna volti čija je dužina munje kroz zrak oko 1,5 metara. Frekvencija struje pražnjenja jest oko 35 kHz.",
+      "U ta dva Teslina transformatora primarna zavojnica nalazi se na prstenastoj drvenoj konstrukciji, a unutar nje sekundarna je zavojnica namotana na cijev izolatora.",
+      "U Kabinetu se nalazi još i sekundarni dio Teslina transformatora kojemu bi, da je potpun, izlazni napon bio oko 4 500 000 V, a inače služi kao uzemljenje za munju koja nastaje pri naponu oko tri milijuna volti."
+    ],
+    "en": [
+      "Particularly powerful impressions are produced by the Tesla coil with a secondary voltage of three million volts, the length of the discharge through the air being about 1.5 metres. In these two Tesla coils the primary winding lies in an annular wooden construction, and within this the secondary winding is wound around an insulating tube.",
+      "The laboratory also holds a secondary winding of a Tesla coil that would have, if it were complete, a potential difference of about 4,500,000 V, and is actually used as grounding for the discharge that appears at a potential difference of about three million volts."
+    ]
+  },
+  "id": "tt3M",
+  "name": {
+    "hr": "Teslin transformator od 3 milijuna volti",
+    "en": "Tesla transformer - 3 milion volts"
+  },
+  "pictureUrl": "/tesla-lab/assets/tt3m.png",
+  "videos": [
+    "/tesla-lab/assets/video/TT3MVolti.mp4"
+  ]
+}

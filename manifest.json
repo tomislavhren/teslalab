@@ -1,0 +1,28 @@
+﻿{
+  "name": "Tesla Lab",
+  "short_name": "TeslaLab",
+  "version": "1.0.0",
+  "description": "Saznajte sve o Teslinom životu, pogledajte pokuse, zaigrajte kviz.",
+  "start_url": "/tesla-lab/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#3F51B5",
+  "theme_color": "#3F51B5",
+  "icons": [
+    {
+      "src": "/tesla-lab/assets/icon96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/tesla-lab/assets/icon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/tesla-lab/assets/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

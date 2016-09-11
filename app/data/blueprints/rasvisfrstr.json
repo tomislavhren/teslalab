@@ -1,0 +1,20 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Nikola Tesla uvelike je pridonio razvoju rasvkete. Prvo je patentirao lučnice, svjetiljke kod kojih svjetlost daje električni luk koji nastaje između eletkroda, a zatim je patentirao svjetiljke napajane visokim naponom i visokofrekvencijskom strujom kod kojih se jedna ili dvije elektrode nalaze u vakuumu unutar staklenoga balona.",
+      "Tesla je iskorištavao visokofrekvencijske struje i za dobivanje svjetlosnih učinaka u cijevima s razrijeđenim plinovima, koje su dana u široj uporabi (fluorescentna rasvjeta).",
+      "Visokofrekvencijske struje uzrokuju ionizaciju plina u cijevi čija je stjenka iznutra premazana fluorescentnim sredstvom, tako da se dobije vidljiva svjetlost. Tesla je imao zanimljivu ideju: osvijetliti cijeli svijet pomoću plinova iz gornjih slojeva atmosfere, koje bi ionizirao visokofrekvencijskim strujama."
+    ],
+    "en": [
+      "Nikola Tesla made great contributions to the development of lighting. He first patented arc lights, the lamps in which illumination is created by the electric arc between the electrodes. He later patented lamps powered by high voltage and high frequency current in which one or two electrodes are placed within a vacuum inside a glass bubble.",
+      "Tesla also made use of high frequency current to obtain luminous effects in tubes with diluted gases, widely used today (fluorescent lighting).",
+      "High frequency current causes ionisation of the gas in the tubes, the walls of which are coated inside with a fluorescent substance, thus producing visible light. Another of Tesla's ideas was to illuminate the whole world using the gases of upper layers of the atmosphere, which could be ionised with high frequency current."
+    ]
+  },
+  "id": "rasvisfrstr",
+  "name": {
+    "hr": "Rasvjeta pomoću visokofrekvencijske struje",
+    "en": "Drawing of an electric lighting system"
+  },
+  "pictureUrl": "/tesla-lab/assets/blueprints/rasvisfrstr.png"
+}

@@ -1,0 +1,23 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Nakon izuma multipolarnoga generatora Tesla je došao na ideju da za dobivanje struja visokih frekvencija iskoristi titrajne krugove s kondenzatorima i zavojnicama gdje frekvencija struje ovisi samo o kapacitetu kondenzatora i induktivitetu zavojnice. Tako su nastali Teslini transformatori. Takav tip transformatora specifičan je zbog načina dobivanja visokog napona i visoke frekvencije struje na sekundarnoj zavojnici.",
+      "U Kabinetu je izloženo nekoliko Teslinih transformatora pomoću kojih se izvode zanimljivi pokusi u kojima sudjeluju i posjetitelji.",
+      "Sljedeći izložak jest Teslin transformator izlaznog napona oko 100 000 V, frekvencije oko 400 kHz. Primarna i sekundarna zavojnica nalaze se unutar zaštitne kutije od pleksi-stakla. Na vrhu sekundarne zavojnice izveden je bakreni vodič, koji prolazi kroz otvor na zaštitnoj kutiji, a na kraju vodiča spojena je žarulja od 500 W. Dok uređaj radi, u žarulji dolazi do izbijanja ljubičaste boje. Ako se žarulji približi bakreni štapić ili neonska cijev, izbijanja prelaze na te predmete. Posjetitelj tu može uživo iskušati učinke struje visoke frekvencije."
+    ],
+    "en": [
+      "(TRANSFORMERS) After the invention of the multi-polar generator, Tesla hit upon the idea of obtaining high frequency current using oscillating circuits with condensers and coils where current frequency depended only on the capacity of the condensers and the inductivity of the coils. This was how Tesla coils came into being. This kind of coil is very particular because of the manner in which high voltage and high frequency current are generated at the secondary winding.",
+      "In the laboratory, several Tesla coils are shown, with which interesting experiments featuring visitor participation can be carried out.",
+      "The next exhibit is a Tesla coil with a potential difference of about 100,000 V and a frequency of about 400 kHz. The primary and secondary windings are inside a protective box of Perspex. At the top of the secondary coil there is a copper conductor that leads through the opening in the protective housing and at the end is connected to a 500 W bulb. While the machine is working, a violet coloured discharge appears in the bulb. If a copper rod or neon tube is brought close to the bulb, then the discharge is transferred to these objects. Visitors here can experience for themselves the effects of high frequency current."
+    ]
+  },
+  "id": "tt100k",
+  "name": {
+    "hr": "Teslin transformer od 100 000 volti",
+    "en": "Tesla transformator - 100 000 volts"
+  },
+  "pictureUrl": "/tesla-lab/assets/tt100k.png",
+  "videos": [
+    "/tesla-lab/assets/video/tt100k.mp4"
+  ]
+}

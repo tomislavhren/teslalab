@@ -1,0 +1,134 @@
+﻿@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/tesla-lab/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(/tesla-lab/MaterialIcons-Regular.woff2) format('woff2'),
+       url(/tesla-lab/MaterialIcons-Regular.woff) format('woff'),
+       url(/tesla-lab/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+html, a, button {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    height: calc(100% - 56px);
+}
+
+    main .view-frame {
+        height: 100%;
+        will-change: scroll-position;
+    }
+
+.mdl-layout {
+    background-color: #3f51b5;
+}
+
+.mdl-layout__header {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+    .mdl-layout__header .mdl-layout__header-row {
+        padding: 0 1.5em;
+    }
+
+        .mdl-layout__header .mdl-layout__header-row .nav-back-button {
+            margin-right: 15px;
+        }
+
+.mdl-tabs .mdl-tabs__tab-bar .mdl-tabs__tab {
+    width: 100%;
+}
+
+.mdl-layout > mdl-layout__header {
+    position: relative !important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.hidden-elements {
+    visibility: hidden !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.enter {
+    -moz-animation: fadeIn 1s both ease;
+    -o-animation: fadeIn 1s both ease;
+    -webkit-animation: fadeIn 1s both ease;
+    animation: fadeIn 1s both ease;
+    will-change: opacity;
+}
+
+.vertical-separator {
+    border: 1px solid white;
+}
+
+.active-culture {
+    background-color: #233180;
+}

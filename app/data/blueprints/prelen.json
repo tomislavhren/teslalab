@@ -1,0 +1,18 @@
+﻿{
+  "descriptions": {
+    "hr": [
+      "Tesla je patentirao sustav prijenosa signala preko odašiljača i prijamnika s antenama koje su na jednoj strani uzemljene, a na drugoj u zraku. Nije stao na tome, nego je istraživao bežični prijenos energije, koji na žalost nije uspio ostvariti.",
+      "Osnovna mu je ideja bila da putem dovoljno snažna odašiljača pošalje elektromagnetske valvoe koji bi se rađirili po površini do suprotnoga Zemljina kraja, te se odatle odbili i združili s prvobitno poslanim valovima i tako stvorili stojne valove. Korisnik bi na bilo kojem dijelu Zemlje prijamnikom mogao crpsti energiju stojnih valova i korisno je uporabiti."
+    ],
+    "en": [
+      "Tesla patented a system for the transmission of signals through transmitters and receivers with aerials, grounded on one side and in the air on the other. His later efforts in researching the wireless transmission of energy were unfortunately never fully realised.",
+      "His principal idea was to send electromagnetic waves by a sufficiently powerful transmitter to spread over the Earth's surface t othe opposite side, whence they would reflect and combine with the initially transmitted waves and thus create standing waves. A user would the be able to draw energy of the standing waves through a receiver at any part of the Earth."
+    ]
+  },
+  "id": "prelen",
+  "name": {
+    "hr": "Nacrt uređaja za prijenos električne energije",
+    "en": "Drawing of a mechanism for electric power transmission"
+  },
+  "pictureUrl": "/tesla-lab/assets/blueprints/prelen.png"
+}

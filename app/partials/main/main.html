@@ -1,0 +1,60 @@
+﻿<div class="main-container" ng-controller="MainController as mc">
+
+
+    <div class="title">
+        <div class="title-wrap">
+            <img src="/tesla-lab/assets/TeslaLabLogo.png" id="tlablogo" />
+        </div>
+    </div>
+
+    <div class="title">
+        <div class="title-wrap">
+            <img src="/tesla-lab/assets/tmntlogo.png" id="tmntlogo" />
+        </div>
+    </div>
+
+    <!--<div class="error" ng-show="!mc.isValid">
+        <div>
+            <i class="material-icons">location_off</i>
+        </div>
+        <div class="error-message">{{mc.error}}</div>
+    </div>
+
+    <div class="error" ng-show="mc.isValid">
+        <div>
+            <i class="material-icons">location_on</i>
+        </div>
+        <div class="error-message">Nalazite se u blizini muzeja. Saznajte više informacija o Tesli ili zaigrajte kviz.</div>
+    </div>-->
+
+    <div class="main-actions-container">
+        <div class="continue" ng-show="mc.isValid">
+            <a href="/tesla-lab/home" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                {{ mc.ui[culture].BTN_MORE }}
+            </a>
+        </div>
+
+        <div class="continue">
+            <a href="/tesla-lab/quiz" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                {{ mc.ui[culture].BTN_QUIZ }}
+            </a>
+        </div>
+    </div>
+
+    <div class="choose-language">
+        <div class="continue">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect" 
+                    type="button"
+                    ng-class="{ 'active-culture': culture == 'hr' }" 
+                    ng-click="setCulture('hr')">HR</button>
+        </div>
+        <div class="vertical-separator"></div>
+        <div class="continue">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect"
+                    ng-class="{ 'active-culture': culture == 'en' }" 
+                    type="button"
+                    ng-click="setCulture('en')">EN</button>
+        </div>
+    </div>
+
+</div>

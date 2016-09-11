@@ -1,0 +1,61 @@
+﻿<div class="quiz-container" ng-controller="QuizController as qc">
+
+    <div class="question-result-container">
+
+        <div class="question"
+             ng-class="{in: qc.in}"
+             ng-show="!qc.quizOver">
+            {{qc.currentQuestion.question}}
+        </div>
+
+        <div class="result"
+             ng-show="qc.quizOver">
+            <p>{{qc.result()}}</p>
+            <p>točno odgovorenih pitanja</p>
+        </div>
+
+        <div id="pbar" class="mdl-progress mdl-js-progress" ng-show="!qc.quizOver"></div>
+    </div>
+
+    <div class="answers-container" ng-show="!qc.quizOver">
+
+        <button ng-repeat="a in qc.currentQuestion.options"
+                class="answer mdl-button mdl-js-button"
+                ng-click="qc.isAnswerCorrect(qc.currentQuestion, $index, $event)">
+            {{a.answer}}
+        </button>
+
+    </div>
+
+    <div class="enter-nickname-container" ng-show="qc.quizOver && qc.step == 1">
+
+        <form ng-class="{'hidden-elements': qc.startSpinner}" ng-submit="qc.submitScore()">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" ng-model="qc.userScore.Nickname" id="nickname" autocomplete="off">
+                <label class="mdl-textfield__label" for="nickname">Unesite nadimak</label>
+            </div>
+
+            <input type="submit" value="Pošalji" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" />
+        </form>
+
+        <div ng-show="qc.startSpinner" class="spinner-container">
+            <div class="mdl-spinner mdl-js-spinner is-active"></div>
+        </div>
+    </div>
+
+    <div class="quiz-results" ng-show="qc.quizOver && qc.step == 2 && qc.resultsLoaded">
+
+        <div class="mdl-list" ng-repeat="r in qc.ranks">
+            <div class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                    <span>{{($index + 1) + '.'}}</span>
+                    <span>&nbsp;&nbsp;{{r.Nickname}}</span>
+                </span>
+                <span class="mdl-list__item-secondary-action">{{r.Score}}</span>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>

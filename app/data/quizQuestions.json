@@ -1,0 +1,223 @@
+﻿[
+  {
+    "question": "Kada je rođen Nikola Tesla?",
+    "options": [
+      {
+        "answer": "1956.",
+        "isTrue": false
+      },
+      {
+        "answer": "1856.",
+        "isTrue": true
+      },
+      {
+        "answer": "1756.",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Nikola Tesla rođen je u obitelji:",
+    "options": [
+      {
+        "answer": "austrougraskog časnika",
+        "isTrue": false
+      },
+      {
+        "answer": "pravoslavnog svećenika",
+        "isTrue": true
+      },
+      {
+        "answer": "seljaka",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Gdje je rođen Nikola Tesla?",
+    "options": [
+      {
+        "answer": "Sinj",
+        "isTrue": false
+      },
+      {
+        "answer": "Gospić",
+        "isTrue": false
+      },
+      {
+        "answer": "Smiljan",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "question": "Na stogodišnjicu Teslina rođenja po njemu je nazvana mjerna jedinica SI sustava za:",
+    "options": [
+      {
+        "answer": "električni naboj",
+        "isTrue": false
+      },
+      {
+        "answer": "jakost struje",
+        "isTrue": false
+      },
+      {
+        "answer": "magnetsku indukciju",
+        "isTrue": true
+      }
+    ]
+  },
+  {
+    "question": "Jedan poznati američki industrijalac 1888.g otkupio je Tesline patente izmjenične struje:",
+    "options": [
+      {
+        "answer": "George Westinghouse",
+        "isTrue": true
+      },
+      {
+        "answer": "J. P. Morgan",
+        "isTrue": false
+      },
+      {
+        "answer": "Robert Johnson",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Vrhovni sud SAD-a 1943. godine posthumno je priznao da je Nikola Tesla otac radiotehnike. No, Nobelovu nagradu za to otkrića na području bežične telegrafije već je 1909. godine dodijeljena:",
+    "options": [
+      {
+        "answer": "Josephu Thomsonu",
+        "isTrue": false
+      },
+      {
+        "answer": "Guglielmu Marconiju",
+        "isTrue": true
+      },
+      {
+        "answer": "Robertu Lomasu",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": " Jedan američki predsjednik u svom je govoru istaknuo kako je Amerika postala to što jest zahvaljujući velikim prodorima ljudi poput Tesle i Einsteina koji su u nju doselili:",
+    "options": [
+      {
+        "answer": "Barack Obama",
+        "isTrue": true
+      },
+      {
+        "answer": "Bill Clinton",
+        "isTrue": false
+      },
+      {
+        "answer": "George Bush",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Jedan američki predsjednik u svom je govoru istaknuo kako je Amerika postala to što jest zahvaljujući velikim prodorima ljudi poput Tesle i Einsteina koji su u nju doselili:",
+    "options": [
+      {
+        "answer": "Barack Obama",
+        "isTrue": true
+      },
+      {
+        "answer": "Bill Clinton",
+        "isTrue": false
+      },
+      {
+        "answer": "George Bush",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Najveći i najsmioniji projekt Nikole Tesle, centar za bežični prijenos energije nalazio se u:",
+    "options": [
+      {
+        "answer": "Colorado Springsu",
+        "isTrue": false
+      },
+      {
+        "answer": "Long Islandu",
+        "isTrue": true
+      },
+      {
+        "answer": "Pittsburghu",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Tijekom šest desetljeća života u SAD-u Nikola Tesla družio se s mnogim poznatim osobama. Njegov dobar prijatelj bio je književnik:",
+    "options": [
+      {
+        "answer": "Mark Twain",
+        "isTrue": true
+      },
+      {
+        "answer": "William Faulkner",
+        "isTrue": false
+      },
+      {
+        "answer": "John Steinbeck",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Nakon odlaska u Ameriku Nikola Tesla u Europi je boravio:",
+    "options": [
+      {
+        "answer": "Jednom",
+        "isTrue": false
+      },
+      {
+        "answer": "Dva puta",
+        "isTrue": true
+      },
+      {
+        "answer": "Nijednom",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Najpoznatiji rival Nikole Tesle bio je:",
+    "options": [
+      {
+        "answer": "Thomas A. Edison",
+        "isTrue": true
+      },
+      {
+        "answer": "Albert Einstein",
+        "isTrue": false
+      },
+      {
+        "answer": "William Reontgen",
+        "isTrue": false
+      }
+    ]
+  },
+  {
+    "question": "Teslin višefazni sustav izmjenične struje pokrenut je 1896. godine na:",
+    "options": [
+      {
+        "answer": "Wardenclyffeu",
+        "isTrue": false
+      },
+      {
+        "answer": "Vodopadima Niagare",
+        "isTrue": true
+      },
+      {
+        "answer": "Colorado Springsu",
+        "isTrue": false
+      }
+    ]
+  }
+]

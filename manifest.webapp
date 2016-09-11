@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0.",
+  "name": "Tesla Lab",
+  "launch_path": "/index.html",
+  "description": "Saznajte sve o Teslinom životu, pogledajte pokuse, zaigrajte kviz.",
+  "icons": {
+    "128": ""
+  },
+  "developer": {
+    "name": "Tomislav Hren",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Tesla Lab",
+      "description": ""
+    }
+  }
+}
