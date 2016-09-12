@@ -6,6 +6,7 @@
     justify-content: flex-start;
     height: 100%;
     position: relative;
+    background-color: white;
 }
 
     .quiz-container .question-result-container {

@@ -12,8 +12,8 @@
         var vm = this;
         $scope.showBackArrow = false;
 
-        $rootScope.culture = navigator.language == "en" 
-                                || navigator.language == "hr" ? navigator.language : "hr";
+        $rootScope.culture = navigator.language == "en"
+            || navigator.language == "hr" ? navigator.language : "hr";
 
         $scope.$on("$routeChangeStart", function () {
             $rootScope.active = true;
@@ -21,7 +21,7 @@
 
         $scope.$on("$routeChangeSuccess", function (angularEvent, current, previous) {
             $timeout(function () { $rootScope.active = false; }, 300);
-            if (current && current.$$route.originalPath === '/') {
+            if (current && current.$$route && current.$$route.originalPath === '/') {
                 $scope.showBackArrow = false;
             } else {
                 $scope.showBackArrow = true;

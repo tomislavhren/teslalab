@@ -26,9 +26,11 @@
         };
 
         $http.get("app/data/" + $routeParams.id + ".json")
-        .then(function (res) {
-            vm.experiment = res.data;
-        });
+            .then(function (res) {
+                vm.experiment = res.data;
+                document.getElementById("ex-det-src").src = vm.experiment.videos[0];
+                document.getElementById("videoplayer").load();
+            });
 
 
     }

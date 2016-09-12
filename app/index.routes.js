@@ -27,7 +27,7 @@
               templateUrl: 'app/partials/blueprints/blueprint.html',
               controller: 'BlueprintController'
           })
-          .when('tesla-lab/quiz', {
+          .when('/quiz', {
               templateUrl: 'app/partials/quiz/quiz.html',
               controller: 'QuizController'
           }).otherwise('/');
