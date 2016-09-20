@@ -1,0 +1,22 @@
+﻿<div class="blueprint-container" ng-controller="BlueprintDetailsController as bc">
+
+    <div class="blueprint-image-container"
+         ng-style="{'background-image': 'url(' + bc.blueprint.pictureUrl + ')'}">
+    </div>
+
+    <div class="blueprint-heading-container">
+        <h2 class="heading">
+            {{bc.blueprint.name[culture]}}
+        </h2>
+    </div>
+
+    <div class="blueprint-description-container">
+
+        <div ng-repeat="desc in bc.blueprint.descriptions[culture]"
+             class="description">
+            <p>{{desc}}</p>
+        </div>
+
+    </div>
+
+</div>

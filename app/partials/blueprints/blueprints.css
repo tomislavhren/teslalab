@@ -1,0 +1,38 @@
+.blueprints-list-container .blueprint:first-child {
+    margin-top: 58px;
+}
+
+.blueprints-list-container {
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+}
+
+.blueprints-list-container .blueprint .mdl-card {
+    margin-bottom: 10px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #3F51B5;
+    z-index: 40;
+}
+
+.blueprints-list-container .blueprint .mdl-card__actions {
+    background-color: rgba(55, 72, 158, .6);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.blueprints-list-container .blueprint .mdl-card__actions .mdl-button {
+    color: white;
+}

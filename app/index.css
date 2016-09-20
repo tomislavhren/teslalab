@@ -1,41 +1,38 @@
 ﻿@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/tesla-lab/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-       local('MaterialIcons-Regular'),
-       url(/tesla-lab/MaterialIcons-Regular.woff2) format('woff2'),
-       url(/tesla-lab/MaterialIcons-Regular.woff) format('woff'),
-       url(/tesla-lab/MaterialIcons-Regular.ttf) format('truetype');
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/tesla-lab/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(/tesla-lab/MaterialIcons-Regular.woff2) format('woff2'), url(/tesla-lab/MaterialIcons-Regular.woff) format('woff'), url(/tesla-lab/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
 }
 
-html, a, button {
+html,
+a,
+button {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
 }
@@ -48,13 +45,17 @@ main {
     height: calc(100% - 56px);
 }
 
-    main .view-frame {
-        height: 100%;
-        will-change: scroll-position;
-    }
+main .view-frame {
+    height: 100%;
+    will-change: scroll-position;
+}
 
 .mdl-layout {
-    background-color: #3f51b5;
+    /*background-color: #3f51b5;*/
+}
+
+.mdl-layout__drawer-button {
+    color: white;
 }
 
 .mdl-layout__header {
@@ -63,23 +64,35 @@ main {
     box-shadow: none;
 }
 
-    .mdl-layout__header .mdl-layout__header-row {
-        padding: 0 1.5em;
-    }
+.mdl-layout__header .mdl-layout__header-row {
+    padding: 0 1.5em;
+}
 
-        .mdl-layout__header .mdl-layout__header-row .nav-back-button {
-            margin-right: 15px;
-        }
+.mdl-layout__header .mdl-layout__header-row .nav-back-button {
+    margin-right: 15px;
+}
 
 .mdl-tabs .mdl-tabs__tab-bar .mdl-tabs__tab {
     width: 100%;
 }
 
-.mdl-layout > mdl-layout__header {
+.mdl-layout>mdl-layout__header {
     position: relative !important;
 }
 
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+.mdl-layout-title {
+    height: 7em;
+    background: #3f51b5;
+    width: 100%;
+    text-align: center;
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
     display: none !important;
 }
 
@@ -91,7 +104,6 @@ main {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -101,7 +113,6 @@ main {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -111,7 +122,6 @@ main {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }

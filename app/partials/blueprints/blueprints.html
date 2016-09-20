@@ -1,0 +1,14 @@
+<div class="blueprints-list-container" ng-controller="BlueprintsController as bc">
+
+
+    <blueprint-card ng-repeat="bp in bc.blueprints" class="blueprint" bp-id="{{bp.id}}" bp-name="{{bp.name[culture]}}" bp-image-url="{{bp.imageUrl}}" ng-cloak ng-click="bc.changeUrl('/blueprints/details/' + bp.id)">
+    </blueprint-card>
+
+
+</div>
+
+<style>
+    .mdl-layout__drawer-button {
+        color: black !important;
+    }
+</style>

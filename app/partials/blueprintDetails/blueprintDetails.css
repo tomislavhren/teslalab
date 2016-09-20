@@ -1,0 +1,50 @@
+﻿.blueprint-container {
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    font-size: 16px;
+    font-weight: 400;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #3f51b5;
+    padding: 1em;
+}
+
+.blueprint-container .blueprint-heading-container {
+    align-items: center;
+    display: flex;
+    padding: 16px;
+}
+
+.blueprint-container .blueprint-heading-container .heading {
+    color: white;
+    align-self: flex-start;
+    display: flex;
+    font-size: 1.35em;
+    font-weight: 300;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    line-height: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.blueprint-container .blueprint-image-container {
+    min-height: 55vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.blueprint-container .blueprint-description-container {
+    color: rgba(255, 255, 255, .87);
+    font-size: 1rem;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 16px;
+    width: 90%;
+}

@@ -1,0 +1,12 @@
+<div class="experiments-container" ng-controller="ExperimentsController as ex">
+
+    <experiment-card ng-repeat="e in ex.experiments" class="experiment" ex-id="{{e.id}}" ex-name="{{e.name[culture]}}" ex-image-url="{{e.imageUrl}}" ng-cloak ng-click="ex.changeUrl('/experiments/details/' + e.id)">
+    </experiment-card>
+
+</div>
+
+<style>
+    .mdl-layout__drawer-button {
+        color: black !important;
+    }
+</style>

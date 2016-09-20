@@ -1,0 +1,93 @@
+
+.about-tesla-container {
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+}
+
+.about-tesla-container .about-tesla-anchors {
+    border-left: 3px solid #3f51b5;
+    padding-left: 20px;
+}
+
+.about-tesla-container .about-tesla-anchors .summary {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.about-tesla-container .about-tesla-anchors .anchor-list {
+    list-style: none;
+    padding: 0;
+}
+
+.about-tesla-container .about-tesla-anchors .anchor-list .anchor {
+    line-height: 30px;
+}
+
+.about-tesla-container .about-tesla-anchors .anchor-list .anchor:last-child {
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.about-tesla-container .about-tesla-anchors .anchor-list .link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.about-tesla-container .about-tesla-heading-container {
+    align-items: center;
+    display: flex;
+    min-height: 22em;
+    padding: 16px;
+    margin-bottom: 28px;
+    background-repeat: no-repeat;
+    background-position: 0 -51px;
+    width: 100%;
+    z-index: 50;
+}
+
+.about-tesla-container .about-tesla-heading-container .heading {
+    color: white;
+    align-self: flex-end;
+    display: flex;
+    font-weight: 300;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 70%;
+    margin: 0;
+    padding: 0 16px;
+}
+
+.about-tesla-container .about-tesla-description-container {
+    color: rgba(0, 0, 0, .7);
+    font-size: 1rem;
+    line-height: 18px;
+    overflow: hidden;
+    width: 90%;
+    z-index: 51;
+}
+
+.about-tesla-container .about-tesla-description-container .description .title {
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 500px) {
+    .about-tesla-container .about-tesla-heading-container {
+        min-height: 43em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-tesla-container .about-tesla-heading-container {
+        max-width: 43em;
+    }
+}

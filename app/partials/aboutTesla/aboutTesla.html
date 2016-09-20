@@ -1,0 +1,43 @@
+<div class="about-tesla-container" ng-controller="AboutTeslaController as atc">
+    <div class="about-tesla-heading-container" ng-style="{'background-image': 'url(' + atc.aboutTesla.imageUrl + ')', 'background-size': 'cover'}">
+
+        <h2 class="heading">
+            {{atc.aboutTesla.name}}
+        </h2>
+
+    </div>
+    <div class="about-tesla-description-container">
+
+        <div class="about-tesla-anchors">
+            <div class="summary">{{atc.aboutTesla.ui.summary[culture]}}</div>
+            <ul class="anchor-list">
+                <li class="anchor" ng-repeat="desc in atc.aboutTesla.description[culture]">
+                    <a class="link" ng-click="atc.jumpTo(desc.id)">
+                                {{desc.title}}
+                            </a>
+                </li>
+            </ul>
+        </div>
+
+        <br />
+
+        <div ng-repeat="desc in atc.aboutTesla.description[culture]" class="description">
+
+
+            <h5 id="anchor{{desc.id}}" class="title">{{desc.title}}</h5>
+
+            <div ng-repeat="art in desc.articles">
+                <p>{{art}}</p>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .mdl-layout__drawer-button {
+        color: black !important;
+    }
+</style>

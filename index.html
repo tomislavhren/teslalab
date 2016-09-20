@@ -53,40 +53,45 @@
 
     <!-- Your styles -->
     <link href="app/index.css" rel="stylesheet">
-    <link href="app/partials/home/home.css" rel="stylesheet">
+    <link href="app/partials/aboutTesla/aboutTesla.css" rel="stylesheet">
+    <link href="app/partials/experiments/experiments.css" rel="stylesheet">
+    <link href="app/partials/blueprints/blueprints.css" rel="stylesheet">
     <link href="app/partials/main/main.css" rel="stylesheet">
     <link href="app/partials/experimentDetails/experimentDetails.css" rel="stylesheet" />
-    <link href="app/partials/blueprints/blueprint.css" rel="stylesheet" />
+    <link href="app/partials/blueprintDetails/blueprintDetails.css" rel="stylesheet" />
     <link href="app/partials/quiz/quiz.css" rel="stylesheet" />
     <!--<link href="app/site/site.min.css" rel="stylesheet" />-->
 </head>
 
 <body ng-app="tesla-lab" ng-cloak>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" ng-class="{enter: active}">
-        <header ng-controller="IndexController as ic" class="mdl-layout__header" ng-class="{blueHeader: bpHeaders}">
+    <div class="mdl-layout mdl-js-layout" style="background-color: #3f51b5" ng-class="{enter: active}">
+        <header ng-controller="IndexController as ic" class="mdl-layout__header mdl-layout__header--transparent" ng-class="{blueHeader: bpHeaders}">
             <div class="mdl-layout__header-row">
-                <nav-back-button ng-if="showBackArrow"></nav-back-button>
+                <!--<nav-back-button ng-if="showBackArrow"></nav-back-button>-->
                 <!-- Title -->
-                <span class="mdl-layout-title"></span>
+                <span class="mdl-layout-title">Tesla lab</span>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
                 <!-- Navigation. We hide it in small screens. -->
-                <!--<nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                </nav>-->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="/tesla-lab/">{{ ui[culture].BTN_HOME }}</a>
+                    <a class="mdl-navigation__link" href="/tesla-lab/abouttesla">{{ ui[culture].BTN_ABOUT }}</a>
+                    <a class="mdl-navigation__link" href="/tesla-lab/experiments">{{ ui[culture].BTN_EXP }}</a>
+                    <a class="mdl-navigation__link" href="/tesla-lab/blueprints">{{ ui[culture].BTN_BP }}</a>
+                </nav>
             </div>
         </header>
-        <!--<div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Tesla lab</span>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">
+                <img src="/tesla-lab/assets/icon144.png" alt="logo">
+            </span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">O TESLII</a>
-                <a class="mdl-navigation__link" href="">POKUSI</a>
-                <a class="mdl-navigation__link" href="">NACRTI</a>
+                <a class="mdl-navigation__link" href="/tesla-lab/">{{ ui[culture].BTN_HOME }}</a>
+                <a class="mdl-navigation__link" menu-close ng-href="/tesla-lab/abouttesla">{{ ui[culture].BTN_ABOUT }}</a>
+                <a class="mdl-navigation__link" menu-close ng-href="/tesla-lab/experiments">{{ ui[culture].BTN_EXP }}</a>
+                <a class="mdl-navigation__link" menu-close ng-href="/tesla-lab/blueprints">{{ ui[culture].BTN_BP }}</a>
             </nav>
-        </div>-->
+        </div>
         <main scrolly class="mdl-layout__content">
             <div class="view-frame" ng-view></div>
         </main>
@@ -115,14 +120,16 @@
     <script src="app/components/stopwatch/stopwatch.js"></script>
 
     <script src="app/directives/navBackButton.js"></script>
-    <script src="app/directives/scrollPosition.js"></script>
     <script src="app/directives/mdlUpgrade.js"></script>
+    <script src="app/directives/closeDrawer.js"></script>
 
     <script src="app/index.controller.js"></script>
-    <script src="app/partials/home/home.controller.js"></script>
+    <script src="app/partials/aboutTesla/aboutTesla.controller.js"></script>
+    <script src="app/partials/experiments/experiments.controller.js"></script>
+    <script src="app/partials/blueprints/blueprints.controller.js"></script>
     <script src="app/partials/main/main.controller.js"></script>
     <script src="app/partials/experimentDetails/experimentDetails.controller.js"></script>
-    <script src="app/partials/blueprints/blueprint.controller.js"></script>
+    <script src="app/partials/blueprintDetails/blueprintDetails.controller.js"></script>
     <script src="app/partials/quiz/quiz.controller.js"></script>
 </body>
 

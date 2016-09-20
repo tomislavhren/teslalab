@@ -1,0 +1,43 @@
+.experiments-container .experiment:first-child {
+    margin-top: 58px;
+}
+
+.experiments-container {
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+}
+
+.experiments-container .experiment .mdl-card {
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: 40;
+}
+
+.experiments-container .experiment .mdl-card__actions {
+    background-color: rgba(0, 0, 0, 0.65);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.experiments-container .mdl-card a.mdl-button {
+    text-align: left !important;
+}
+
+.experiments-container .experiment .mdl-card__actions .mdl-button,
+.experiments-container .experiment .mdl-card__actions .material-icons {
+    color: inherit;
+}
